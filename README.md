@@ -39,12 +39,5 @@ This project focuses on the analysis of the enzyme **alpha-D-glucose 1,6-biphosp
 ## Outputs
 The outputs of the analysis include visualizations of the enzyme's interactions with genes and pathways. These outputs are stored in the `Outputs` folder.
 
-### Example Outputs
-1. **Enzyme-Genes Network**:
-   ![Enzyme-Genes Network](Outputs/enzyme_genes_network.png)
-
-2. **Pathway Network**:
-   ![Pathway Network](Outputs/pathway_network.png)
-
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
