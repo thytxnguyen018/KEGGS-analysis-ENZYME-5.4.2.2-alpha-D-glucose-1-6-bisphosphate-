@@ -17,18 +17,34 @@ This project focuses on the analysis of the enzyme **alpha-D-glucose 1,6-biphosp
 - Pathway analysis and visualization using KEGG's data.
 - Network visualization of enzyme-gene and enzyme-pathway interactions.
 - Output of significant pathways and associated enzyme functions.
-- Example Outputs Folder Structure: 
-KEGG-Analysis-Enzyme-5-4-2-2/
-│
-├── KEGG Analysis for Genes and Pathways Enzyme - EC 5 4 2 2.ipynb  
-├── Outputs/                                                        
-│   ├── enzyme_genes_network.png                                    # Associated Genes
-│   ├── pathway_network.png                                         # Pathway Network n
-│
-└── README.md                                                       
+
 
 ## Setup Instructions
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/KEGG-Analysis-Enzyme-5-4-2-2.git
    cd KEGG-Analysis-Enzyme-5-4-2-2
+   ```
+
+2. Install the required Python libraries:
+   ```bash
+   pip install biopython networkx matplotlib
+   ```
+
+3. Run the Jupyter Notebook:
+   ```bash
+   jupyter notebook "KEGG Analysis for Genes and Pathways Enzyme - EC 5 4 2 2.ipynb"
+   ```
+
+## Outputs
+The outputs of the analysis include visualizations of the enzyme's interactions with genes and pathways. These outputs are stored in the `Outputs` folder.
+
+### Example Outputs
+1. **Enzyme-Genes Network**:
+   ![Enzyme-Genes Network](Outputs/enzyme_genes_network.png)
+
+2. **Pathway Network**:
+   ![Pathway Network](Outputs/pathway_network.png)
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
