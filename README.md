@@ -5,19 +5,27 @@ This project performs a KEGG (Kyoto Encyclopedia of Genes and Genomes) pathway a
 ## Technologies Used
 - **Python 3.x**
 - **KEGG API**: For retrieving pathway data and enzyme information.
-- **Pandas**: For data manipulation and analysis.
-- **Matplotlib/Seaborn**: For visualizing pathway data (if applicable).
-- **Requests**: For making HTTP requests to KEGG API.
-- **BioPython** (optional): If you're performing any additional bioinformatics tasks.
+- **NetworkX**: For creating and visualizing networks.
+- **Matplotlib**: For visualizing pathway and gene networks.
+- **BioPython**: For parsing KEGG data.
 
 ## Project Overview
-This project focuses on the analysis of the enzyme **alpha-D-glucose 1,6-biphosphate**, which is involved in glucose metabolism. The project retrieves pathway information from the KEGG database, maps the enzyme to relevant metabolic pathways, and performs enrichment analysis to determine its role in cellular processes. The analysis is done using Python and relies on the KEGG API to fetch data.
+This project focuses on the analysis of the enzyme **alpha-D-glucose 1,6-biphosphate**, which is involved in glucose metabolism. The project retrieves pathway information from the KEGG database, maps the enzyme to relevant metabolic pathways, and visualizes its interactions with associated genes and pathways.
 
 ### Key Features
 - Retrieval of enzyme information from KEGG.
-- Pathway analysis and enrichment using KEGG's data.
-- Network visualization of enzyme interactions.
+- Pathway analysis and visualization using KEGG's data.
+- Network visualization of enzyme-gene and enzyme-pathway interactions.
 - Output of significant pathways and associated enzyme functions.
+- Example Outputs Folder Structure: 
+KEGG-Analysis-Enzyme-5-4-2-2/
+│
+├── KEGG Analysis for Genes and Pathways Enzyme - EC 5 4 2 2.ipynb  
+├── Outputs/                                                        
+│   ├── enzyme_genes_network.png                                    # Associated Genes
+│   ├── pathway_network.png                                         # Pathway Network n
+│
+└── README.md                                                       
 
 ## Setup Instructions
 1. Clone the repository:
