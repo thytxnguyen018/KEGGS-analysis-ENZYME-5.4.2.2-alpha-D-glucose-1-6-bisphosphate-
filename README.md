@@ -39,8 +39,8 @@ This project focuses on the analysis of the enzyme **alpha-D-glucose 1,6-biphosp
 ## Outputs
 The outputs of the analysis include visualizations of the enzyme's interactions with genes and pathways. These outputs are stored in the `Outputs` folder.
 <p align="center">
-   <a
-   <img width="150px" height="150px" src="https://imgur.com/owvz9Vn"/>
+   <a>
+   <img width="800px" height="800px" src="https://imgur.com/owvz9Vn.jpg"/>
    </a>
 </p>
 
